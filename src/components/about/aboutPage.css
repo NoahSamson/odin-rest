@@ -1,0 +1,23 @@
+.about-content {
+    background-color: lightskyblue;
+    background-image: url('./../../assets/images/OnePieceMapLocation.png');
+    background-size: 100% 100%;
+    flex: 1;
+    height: 100%;
+}
+
+.about-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'BlackPearl', sans-serif;
+}
+
+.about-heading img {
+    width: 250px;
+}
+
+.about-heading h2 {
+    font-size: 70px;
+    text-decoration: underline;
+}

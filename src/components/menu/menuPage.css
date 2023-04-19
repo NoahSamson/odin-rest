@@ -1,0 +1,72 @@
+.menu-content {
+    background-color: lightskyblue;
+    background-image: url('../../assets/images/menu-bg.jpg');
+    background-size: 100% 100%;
+    flex: 1;
+    height: 100%;
+}
+
+.menu-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'BlackPearl', sans-serif;
+}
+
+.menu-heading img {
+    width: 250px;
+}
+
+.menu-heading h2 {
+    font-size: 70px;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.menu-item {
+    width: 350px;
+    height: 525px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: url('./../../assets/images/menu-item-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.menu-item-content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-item-img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 140px;
+}
+
+.menu-item h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+}
